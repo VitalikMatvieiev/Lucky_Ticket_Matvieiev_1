@@ -22,7 +22,7 @@ namespace LuckyTicket
         private void Com (string n)
         {
 
-            if (n.Length > 4 && n.Length < 8)
+            if (n.Length >= 4 && n.Length <= 8)
             {
 
                 if (n.ToString().Length % 2 == 0)
