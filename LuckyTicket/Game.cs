@@ -8,7 +8,7 @@ namespace LuckyTicket
 {
     public class Game
     {
-        public Status GameStatus = Status.GameOff;
+        public Status GameStatus = Status.GameOn;
         public void Start(Ticket ticket)
         {
             do
