@@ -16,25 +16,6 @@ namespace LuckyTicket
             set
             {
                 this.Com(value);
-                #region
-                /*if (value.Length > 4 && value.Length < 8)
-                {
-
-                    if (value.ToString().Length % 2 == 0)
-                    {
-                        number = value;
-                    }
-                    else
-                    {
-                        number = "0" + value;
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Invalid num");
-                    this.Com(Console.ReadLine());
-                }*/
-                #endregion
             }
         }
 
